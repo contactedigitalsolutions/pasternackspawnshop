@@ -1,0 +1,2 @@
+export const metadata = { title: "Pasternack Pawn Shop — East Colfax (Demo)", description: "Live demo of the Pasternack Pawn website mockup." };
+export default function RootLayout({ children }: { children: React.ReactNode }) { return (<html lang="en"><body className="min-h-screen">{children}</body></html>); }
